@@ -35,7 +35,7 @@ Getting Started
 
 
 ```
-git clone https://github.com/yourusername/ecommerce-api.git cd ecommerce-api
+git clone https://github.com/PrathmeshSarate/ecommerce-api.git cd ecommerce-api
 
 ```
 
