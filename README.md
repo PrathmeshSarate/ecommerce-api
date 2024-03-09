@@ -5,18 +5,15 @@ Welcome to the E-Commerce API! This API provides endpoints for managing products
 
 Table of Contents:
 
--   Getting Started: #getting-started
-
--   Prerequisites: #prerequisites
-
--   Installation: #installation
-
--   Running the Tests: #running-the-tests
--   API Endpoints: #api-endpoints
--   Architectural Decisions: #architectural-decisions
--   Assumptions: #assumptions
--   Contributing: #contributing
--   License: #license
+-   Getting Started: 
+-   Prerequisites: 
+-   Installation: 
+-   Running the Tests: 
+-   API Endpoints: 
+-   Architectural Decisions: 
+-   Assumptions: 
+-   Contributing:
+-   License:
 
 Getting Started
 ---------------
@@ -31,75 +28,31 @@ Getting Started
 ### Installation
 
 1.  Clone the repository:
-
-
-
 ```
 git clone https://github.com/PrathmeshSarate/ecommerce-api.git cd ecommerce-api
-
 ```
 
-
-
-
-
-1.  Install dependencies:
-
-
-
+2.  Install dependencies:
 ```
 composer install
-
 ```
-
-
-
-
-
-1.  Configure your database settings:
-
+3.  Configure your database settings:
     -   Copy the `.env.example` file to `.env` and update the settings.
-2.  Generate application key:
-
-
-
+4.  Generate application key:
 ```
 php artisan key:generate
-
 ```
-
-
-
-
-
-1.  Run migrations and seed the database:
-
-
-
+5.  Run migrations and seed the database:
 ```
 php artisan migrate --seed
-
 ```
-
-
-
-
-
 Running the Tests
 -----------------
 
 To run the PHPUnit tests:
-
-
-
 ```
 php artisan test
-
 ```
-
-
-
-
 
 API Endpoints
 -------------
@@ -140,8 +93,7 @@ Assumptions
 
 -   The API assumes a MySQL database for data storage.
 
-
 License
 -------
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License.
